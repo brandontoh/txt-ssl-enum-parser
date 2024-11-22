@@ -26,7 +26,9 @@ python ssl-enum-parser.py --file <SINGLE NMAP FILE> --out <OUTPUT CSV PATH>
 ```
 
 Note: you can also choose to leave out the --out argument, it will default to output.csv in the current directory
+
 Note: the file search in directory is not recursive, so it only parses nmap in that directory
+
 Note: if your directory has space, remember to wrap with single/double quote
 
 By default, when using the --dir argument, the script searches for "ssl-enum-cipher" in the filename and parses them, so if your ssl ciphers nmap dont have this naming and uses someother naming convention, you can make use of this keyword argument to change it:
